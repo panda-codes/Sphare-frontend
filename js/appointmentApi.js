@@ -24,7 +24,7 @@ const message = document.getElementById('message').value;
 
     const response = await axios({
           method:'post',
-          url:'http://localhost:5000/home',
+          url:'https://sphare-frontend.vercel.app/home',
           data: {
             full_name:name,
             email:email,

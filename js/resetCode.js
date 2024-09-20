@@ -30,7 +30,7 @@ const changePassWord = async () => {
     try {
         const response = await axios({
             method: 'post',
-            url: 'http://localhost:5000/resetpassword',
+            url: 'https://sphare-frontend.vercel.app/resetpassword',
             data: {
                 resetcode:resetcode,
                 email:email,

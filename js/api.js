@@ -13,7 +13,7 @@ const password = document.getElementById('password').value;
 
     const response = await axios({
           method:'post',
-          url:'http://localhost:5000/signup',
+          url:'https://sphare-frontend.vercel.app/signup',
           data: {
             firstname:firstname,
             email:email,
