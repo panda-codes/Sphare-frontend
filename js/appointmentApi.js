@@ -24,7 +24,7 @@ const message = document.getElementById('message').value;
 
     const response = await axios({
           method:'post',
-          url:'https://healthcare-eta-nine.vercel.app/home',
+          url:'http://localhost:5000/home',
           data: {
             full_name:name,
             email:email,
