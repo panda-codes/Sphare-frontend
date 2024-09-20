@@ -13,7 +13,7 @@ const password = document.getElementById('password').value;
 
     const response = await axios({
           method:'post',
-          url:'https://sphare-frontend.vercel.app/signup',
+          url:'https://healthcare-eta-nine.vercel.app/signup',
           data: {
             firstname:firstname,
             email:email,

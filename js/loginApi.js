@@ -8,7 +8,7 @@ const loginUser = async (event) => {
     try {
         const response = await axios({
             method: 'post',
-            url: 'https://sphare-frontend.vercel.app/login',
+            url: 'https://healthcare-eta-nine.vercel.app/login',
             data: {
                 email: email,
                 password: password,

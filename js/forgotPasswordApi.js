@@ -20,7 +20,7 @@ const forgotPassword = async () => {
     try {
         const response = await axios({
             method: 'post',
-            url: 'http://localhost:5000/forgotpassword',
+            url: 'https://healthcare-eta-nine.vercel.app/forgotpassword',
             data: {
                 email:email,
             }
